@@ -12,4 +12,4 @@ ulimit -s
 env GO_TEST_TIMEOUT_SCALE=10 GOROOT_BOOTSTRAP=$HOME/go-linux-arm-bootstrap ./make.bash
 
 echo "export GOPATH=$HOME/go" >> ~/.bashrc
-echo "export PATH=$PATH;$GOPATH" >> ~/.bashrc
+echo "export PATH=$PATH:$GOPATH" >> ~/.bashrc
